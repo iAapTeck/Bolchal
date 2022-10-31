@@ -96,7 +96,7 @@ You can set the language with `setLanguage()`. Default is English
 **Change Speed of Reader**
 You can change speed with `setSpeed()`.
 
-      bolchal.setSpeed(2.0f)
+      bolchal.setSpeed(1.0f) // Volume Level inbetween 0.5f, 1.0f, 2.0f, 3.0f or So On
 
 **Change the mode of Reader**
 You can change the mode `Queue` and `Flush` with `setQueueMode`.
