@@ -14,11 +14,13 @@ class MainActivity : AppCompatActivity() {
 
         bolchal = Bolchal(this)
 
-        bolchal.setLanguage(Locale("hn"))
-        //bolchal.setLanguage(Locale.)
+        //bolchal.setLanguage(Locale("hn"))
+        bolchal.setLanguage(Locale("Hindi", "IN"))
+
         bolchal.setQueueMode(TextToSpeech.QUEUE_ADD)
         bolchal.setQueueMode(TextToSpeech.QUEUE_FLUSH)
 
+        bolchal.setSpeed(1.0f) // Setting up actual speed volume level
         bolchal.isPlaying()
 
         Toast.makeText(this, "Successfully, We have implemented Bolchal Library for Android Studio Project. Bolchal Android Library is Android TextToSpeech Helper Library. This is easiest way to use TextToSpeech on android where you can handle all events of TextToSpeech on U.I.\n", Toast.LENGTH_LONG).show()
