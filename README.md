@@ -15,7 +15,8 @@ Bolchal Android Library
 ## Installation
 Add the following line in your app level `build.gradle` file and you can bolchal.
 
-    implementation 'com.github.iAapTeck:Bolchal:1.0.1'
+    implementation 'com.github.iAapTeck:Bolchal:1.0.2'
+    implementation 'com.github.iAapTeck:Bolchal:v1.0.2'
 
 Or you can just use the `Bolchal.kt` file in your project (dependencies: Kotlin Coroutines)
 
